@@ -1,6 +1,6 @@
-- Run api port 3000 /n
-node server.js
+Run api port 3000
+  node server.js
 
-- Run app /n
-yarn /n
-yarn start /n
+Run app
+  yarn
+  yarn start
