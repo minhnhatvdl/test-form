@@ -1,0 +1,20 @@
+html.animationColorTheme,
+html.animationColorTheme *,
+html.animationColorTheme *:before,
+html.animationColorTheme *:after {
+    transition: all 500ms;
+}
+html {
+    --backgroundColor: #fff;
+    --backgroundColorInverse: #212121;
+    --backgroundColorMedium: #f2f2f2;
+    --color: #fff;
+    --colorInverse: #212121;
+}
+html[data-theme="dark"] {
+    --backgroundColor: #212121;
+    --backgroundColorInverse: #fff;
+    --backgroundColorMedium: #4f3f39;
+    --color: #212121;
+    --colorInverse: #fff;
+}

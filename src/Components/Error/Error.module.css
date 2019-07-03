@@ -1,0 +1,5 @@
+.error {
+    color: var(--colorInverse);
+    text-align: center;
+    margin: 50px;
+}
